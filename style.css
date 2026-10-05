@@ -1,8 +1,3 @@
-/* Personal Portfolio - style.css
-   Rough, poster-style look: dark background, heavy headings,
-   thick borders with a bold teal edge. */
-
-/* Reset: remove default spacing from every element */
 * {
   margin: 0;
   padding: 0;
@@ -13,8 +8,8 @@ body {
   line-height: 1.6;
   color: #eaeaea;
   background-color: #0a0f0d;
-  background-image: url(images/binary.png);   /* binary-code wallpaper */
-  background-repeat: repeat;                  /* tiles across the whole page */
+  background-image: url(images/binary.png);   
+  background-repeat: repeat;                  
 }
 
 h1, h2, h3 {
@@ -83,10 +78,9 @@ nav a:hover {
   color: #a0a0a0;
 }
 
-/* ---------- Four link boxes (two per row, floated) ---------- */
 .links {
   list-style-type: none;
-  overflow: hidden;            /* makes the box wrap around its floated items */
+  overflow: hidden;            
   margin-bottom: 1em;
 }
 
@@ -113,9 +107,8 @@ nav a:hover {
   color: #121212;
 }
 
-/* ---------- Sections: thick border with a bold teal edge ---------- */
 section {
-  overflow: hidden;            /* so the floated photo stays inside the box */
+  overflow: hidden;            
   padding: 1.2em;
   margin-bottom: 1.5em;
   border: 3px solid #eaeaea;
@@ -131,7 +124,6 @@ section h2 {
   background-color: #2dd4bf;
 }
 
-/* ---------- About ---------- */
 .photo {
   float: left;
   width: 35%;
@@ -150,7 +142,7 @@ section h2 {
 
 .btn:link, .btn:visited {
   display: block;
-  clear: both;                 /* starts below the floated photo */
+  clear: both;                
   width: 10em;
   padding: 0.5em;
   margin-bottom: 1em;
@@ -166,7 +158,6 @@ section h2 {
   background-color: #ffffff;
 }
 
-/* ---------- Education table ---------- */
 .table-wrap { overflow: auto; }
 
 table {
@@ -185,7 +176,6 @@ th {
   background-color: #000000;
 }
 
-/* ---------- Skills and interests ---------- */
 .tags {
   clear: both;
   list-style-type: none;
@@ -206,7 +196,6 @@ th {
 
 .note { margin-top: 1em; }
 
-/* ---------- Contact ---------- */
 .contact {
   list-style-type: none;
 }
@@ -218,7 +207,6 @@ th {
 
 .contact a { word-wrap: break-word; }
 
-/* ---------- Footer: two floated columns ---------- */
 footer {
   overflow: hidden;
   padding: 1.5em 5% 1em 5%;
@@ -245,12 +233,10 @@ footer ul { list-style-type: none; }
   color: #a0a0a0;
 }
 
-/* Remove extra space at the bottom of some elements */
 .note, .tagline, .role {
   margin-bottom: 0.6em;
 }
 
-/* "Top" link stays in the corner while scrolling */
 .to-top {
   position: fixed;
   right: 12px;
