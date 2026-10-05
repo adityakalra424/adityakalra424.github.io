@@ -1,3 +1,6 @@
+/* Personal Portfolio - style.css
+   Rough, poster-style look: dark background, heavy headings,
+   thick borders with a bold teal edge. */
 
 /* Reset: remove default spacing from every element */
 * {
@@ -9,7 +12,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   color: #eaeaea;
-  background-color: #121212;
+  background-color: #0a0f0d;
+  background-image: url(images/binary.png);   /* binary-code wallpaper */
+  background-repeat: repeat;                  /* tiles across the whole page */
 }
 
 h1, h2, h3 {
